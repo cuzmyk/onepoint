@@ -1,0 +1,11 @@
+@import "./reset.css";
+
+.app {
+  padding: 50px 140px;
+  background: #282c34;
+  height: 100vh;
+
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position-x: left;
+}
