@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e76d8cd.css",
+    "main.js": "/static/js/main.cde6329d.js",
+    "static/media/background.png": "/static/media/background.f24e05ad77d84bf1ad9c.png",
+    "static/media/pinkspermgroup.png": "/static/media/pinkspermgroup.58fc6ec2ed93fcbba5dc.png",
+    "static/media/bottle.png": "/static/media/bottle.b1d9481640d0af9fb364.png",
+    "static/media/bluebacterium2.png": "/static/media/bluebacterium2.2143c1f39a4877c583b8.png",
+    "static/media/pinksperm.png": "/static/media/pinksperm.ff10a88f0cfc5704110b.png",
+    "static/media/bluebacterium4.png": "/static/media/bluebacterium4.56e8e66b6e6c5049be30.png",
+    "static/media/bluebacterium.png": "/static/media/bluebacterium.5ad603f57cabbeba7fbd.png",
+    "static/media/DINPro.woff2": "/static/media/DINPro.560be2f6f935581d7d62.woff2",
+    "static/media/DINPro-Bold.woff2": "/static/media/DINPro-Bold.1db735ab632d30e6be91.woff2",
+    "static/media/bluebacterium3.png": "/static/media/bluebacterium3.2177ea4dd4cbb671fa2c.png",
+    "static/media/Gilroy-Light.woff2": "/static/media/Gilroy-Light.c2e7a6dc47e5b9a89a37.woff2",
+    "static/media/Gilroy-Regular.woff2": "/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "static/media/Gilroy-Extrabold.woff2": "/static/media/Gilroy-Extrabold.5c5942d3e4d9a9645df4.woff2",
+    "index.html": "/index.html",
+    "main.1e76d8cd.css.map": "/static/css/main.1e76d8cd.css.map",
+    "main.cde6329d.js.map": "/static/js/main.cde6329d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e76d8cd.css",
+    "static/js/main.cde6329d.js"
+  ]
+}
