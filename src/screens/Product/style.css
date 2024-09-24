@@ -1,0 +1,202 @@
+.product {
+  position: relative;
+  height: 100vh;
+  padding: 25px 70px;
+  padding-left: 350px;
+  display: grid;
+  grid-template-rows: 190px 1fr;
+  grid-gap: 30px;
+}
+
+.product_blackout {
+  position: absolute;
+  background-color: rgba(22, 39, 62, 0.7);
+  height: 100%;
+  width: 100%;
+}
+.product_cover {
+  position: absolute;
+  background-color: white;
+  width: 800px;
+  height: 573px;
+  left: 140px;
+  top: 123px;
+  border-radius: 40px;
+  z-index: 0;
+  transform: translateX(20px);
+}
+
+.product_img {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  height: 689px;
+  z-index: 1;
+}
+.product_img img {
+  height: 100%;
+  width: auto;
+}
+
+.product_controls {
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-self: end;
+  z-index: 1;
+}
+
+.product_close-info {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.product_close-info::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 12px;
+  width: 25px;
+  height: 1px;
+  transform: rotate(45deg);
+  background-color: black;
+}
+.product_close-info::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 12px;
+  width: 25px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-color: black;
+}
+
+.product_title {
+  font-size: 27px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.brand_name {
+  position: relative;
+  margin-bottom: 94px;
+  font-size: 95px;
+  font-family: "Gilroy";
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 5px;
+  z-index: 1;
+}
+
+.brand_shortinfo {
+  display: flex;
+  gap: 40px;
+  transform: translateX(-40px);
+}
+
+.brand_block {
+  position: relative;
+  background-color: white;
+  padding: 40px;
+  border-radius: 40px;
+  font-size: 25px;
+  min-width: 350px;
+  filter: drop-shadow(10px 10px 7px rgba(157, 185, 198, 0.4));
+}
+
+.brand_block img {
+  position: absolute;
+  width: 70px;
+  top: 0;
+  transform: translateY(-50%);
+}
+
+.brand_more {
+  display: flex;
+  width: 263px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.brand_more .brand_block {
+  min-width: auto;
+  width: 263px;
+  height: 150px;
+}
+
+.brand_more-info {
+  position: relative;
+  width: 80%;
+  z-index: 1;
+}
+
+.info_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.info_item h6 {
+  /* margin-bottom: 10px; */
+  font-size: 25px;
+  font-family: "Gilroy";
+  font-weight: 800;
+  color: #8cc9e8;
+}
+
+.info_item p {
+  font-size: 25px;
+}
+
+.info_pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.pagination_dots {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.pagination_dot {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.pagination_dot.active {
+  background-color: #fc6da9;
+  border: none;
+}
+
+.pagination_switch {
+  position: relative;
+  height: 20px;
+  width: 10px;
+}
+
+.pagination_switch::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 10px;
+  top: 6px;
+  left: 0;
+  background-color: black;
+  transform: rotate(-45deg);
+}
+.pagination_switch::before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 10px;
+  bottom: 6px;
+  left: 0;
+  background-color: black;
+  transform: rotate(45deg);
+}

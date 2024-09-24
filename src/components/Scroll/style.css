@@ -1,0 +1,45 @@
+.message-scroll {
+  display: flex;
+  column-gap: 35px;
+}
+
+.message-text {
+  padding: 32px;
+  width: 775px;
+  height: 445px;
+  background-color: white;
+  overflow-y: scroll;
+  border-radius: 40px;
+  font-size: 22px;
+  color: black;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  filter: drop-shadow(10px 10px 7px rgba(157, 185, 198, 0.4));
+}
+
+.scroll-slider {
+  height: 445px;
+  writing-mode: vertical-lr;
+  direction: rtl;
+
+  width: 5px;
+  vertical-align: top;
+  transform: rotate(180deg);
+}
+
+.message-scroll input {
+  appearance: none;
+  width: 5px;
+  border-radius: 8rem;
+  background-color: black;
+}
+
+.message-scroll input::-webkit-slider-thumb {
+  appearance: none;
+  height: 100px;
+  width: 20px;
+  border-radius: 8rem;
+  background-color: #cf578d;
+  box-shadow: inset rgba(0, 0, 0, 0.3) -3px -3px 3px,
+    inset rgba(255, 255, 255, 0.3) 3px 3px 3px;
+}

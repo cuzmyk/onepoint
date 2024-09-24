@@ -1,14 +1,54 @@
+.home {
+  position: relative;
+  height: 100vh;
+  padding: 25px 70px;
+  display: grid;
+  grid-template-rows: 190px 1fr;
+  grid-gap: 40px;
+  overflow: hidden;
+}
+
 .home_greetings {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  font-size: 50px;
+  align-self: end;
+  font-size: 27px;
   font-family: "DIN Pro";
   text-transform: uppercase;
 }
 
 .home_title {
-  font-size: 180px;
+  position: relative;
+  font-size: 109px;
   font-family: "Gilroy";
+  font-weight: 300;
   text-transform: uppercase;
   line-height: 1;
+  z-index: 1;
+}
+
+.home_btn {
+  position: absolute;
+  bottom: 200px;
+  right: 150px;
+}
+
+@keyframes orbit {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  25% {
+    transform: translate(20px, -20px) rotate(90deg) scale(1.2);
+  }
+  50% {
+    transform: translate(0, -40px) rotate(180deg) scale(1);
+  }
+  75% {
+    transform: translate(-20px, -20px) rotate(270deg) scale(1.2);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg) scale(1);
+  }
+}
+
+.home .orbit-anim_image {
+  animation: orbit 45s linear infinite;
 }

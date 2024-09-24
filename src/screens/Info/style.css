@@ -1,0 +1,15 @@
+.info {
+  position: relative;
+  height: 100vh;
+  padding: 25px 70px;
+  display: grid;
+  grid-template-rows: 190px 1fr;
+  grid-gap: 40px;
+}
+
+.info_title {
+  align-self: flex-end;
+  font-family: "DIN Pro";
+  font-size: 27px;
+  text-transform: uppercase;
+}

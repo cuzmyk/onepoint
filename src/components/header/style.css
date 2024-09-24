@@ -1,16 +1,24 @@
 .header {
+  position: absolute;
+  top: 25px;
+  left: 70px;
   display: flex;
   column-gap: 10px;
   /* background-color: #ff0000; */
+  z-index: 5;
+}
+
+.header img {
+  height: 20px;
 }
 
 .header_separator {
   width: 1px;
-  height: 50px;
+  height: 25px;
   background-color: black;
 }
 
 .header_title {
   font-family: "DIN Pro";
-  font-size: 34px;
+  font-size: 17px;
 }

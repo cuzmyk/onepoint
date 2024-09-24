@@ -1,0 +1,28 @@
+.btn {
+  position: relative;
+  padding-left: 90px;
+  padding-right: 40px;
+  height: 80px;
+  background-color: #ff6a9f;
+  border-radius: 8rem;
+  font-size: 27px;
+  text-align: start;
+  z-index: 5;
+}
+
+.btn::after {
+  position: absolute;
+  padding-bottom: 5px;
+  content: attr(data-symbol);
+  left: 20px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  filter: drop-shadow(-3px -3px 3px rgba(0, 0, 0, 0.3))
+    drop-shadow(3px 3px 3px rgba(255, 255, 255, 0.3));
+}

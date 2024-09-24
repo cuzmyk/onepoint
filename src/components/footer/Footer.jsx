@@ -1,7 +1,12 @@
 import logo from "./../../images/logo.png";
+import "./style.css";
 
 const Footer = () => {
-  return <img src={logo} />;
+  return (
+    <div className="footer_logo">
+      <img src={logo} alt="onepoint" />
+    </div>
+  );
 };
 
 export default Footer;

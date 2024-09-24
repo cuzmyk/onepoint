@@ -1,9 +1,16 @@
 import "./style.css";
+import home from "../../images/home.png";
 
-const Header = () => {
+const Header = ({ setScrollTo }) => {
   return (
     <div className="header">
-      <p className="header_home">home</p>
+      <button
+        onClick={() => {
+          setScrollTo(0);
+        }}
+      >
+        <img src={home} alt="home" />
+      </button>
       <div className="header_separator"></div>
       <p className="header_title">PROJECT</p>
     </div>
